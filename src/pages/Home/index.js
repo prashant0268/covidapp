@@ -25,6 +25,7 @@ function Home() {
     <div>
       <div>
         <Link to="/addpolicy">Add Policy</Link>
+        <span>Hello World</span>
       </div>
     </div>
   );
