@@ -1,0 +1,7 @@
+type Policy @model {
+  id: ID!
+  title: String
+  country: String
+  state: String!
+  effectiveFrom: String
+}
