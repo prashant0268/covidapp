@@ -8,6 +8,7 @@ export const getPolicy = /* GraphQL */ `
       title
       country
       state
+      tweetId
       effectiveFrom
     }
   }
@@ -24,6 +25,7 @@ export const listPolicys = /* GraphQL */ `
         title
         country
         state
+        tweetId
         effectiveFrom
       }
       nextToken

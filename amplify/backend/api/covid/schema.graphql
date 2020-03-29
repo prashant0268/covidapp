@@ -3,5 +3,6 @@ type Policy @model {
   title: String
   country: String
   state: String!
+  tweetId: String!
   effectiveFrom: String
 }

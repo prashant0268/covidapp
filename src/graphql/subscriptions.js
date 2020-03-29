@@ -8,6 +8,7 @@ export const onCreatePolicy = /* GraphQL */ `
       title
       country
       state
+      tweetId
       effectiveFrom
     }
   }
@@ -19,6 +20,7 @@ export const onUpdatePolicy = /* GraphQL */ `
       title
       country
       state
+      tweetId
       effectiveFrom
     }
   }
@@ -30,6 +32,7 @@ export const onDeletePolicy = /* GraphQL */ `
       title
       country
       state
+      tweetId
       effectiveFrom
     }
   }

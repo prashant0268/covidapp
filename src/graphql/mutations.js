@@ -11,6 +11,7 @@ export const createPolicy = /* GraphQL */ `
       title
       country
       state
+      tweetId
       effectiveFrom
     }
   }
@@ -25,6 +26,7 @@ export const updatePolicy = /* GraphQL */ `
       title
       country
       state
+      tweetId
       effectiveFrom
     }
   }
@@ -39,6 +41,7 @@ export const deletePolicy = /* GraphQL */ `
       title
       country
       state
+      tweetId
       effectiveFrom
     }
   }
