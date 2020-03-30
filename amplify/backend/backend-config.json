@@ -15,9 +15,10 @@
 				"authConfig": {
 					"additionalAuthenticationProviders": [],
 					"defaultAuthentication": {
-						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
-						"userPoolConfig": {
-							"userPoolId": "authcovidapp0b8d3194"
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "I dont know what the description should be",
+							"apiKeyExpirationDays": "365"
 						}
 					}
 				}
